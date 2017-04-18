@@ -557,6 +557,9 @@ div#maincontent {
     border-color: #95a5a6;
     font-size: 15px;
 }
+.arrow {
+  font-size: 16px;
+}
 /*Mobile*/
 @media(max-width:414px) {
   .logo {
