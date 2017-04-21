@@ -42,3 +42,25 @@
     });
 
 })(jQuery); // End of use strict
+
+$(document).ready(function() {
+    $(".plusminus").parent().parent().click(function () {
+      if ($(this).hasClass("collapsed")){
+        $(this).find('i').removeClass("fa-chevron-circle-right").addClass("fa-chevron-circle-down");
+      } else{
+        $(this).find('i').removeClass("fa-chevron-circle-down").addClass("fa-chevron-circle-right");
+      }
+    });
+});
+  
+$('#btn').click(function(e){    
+    $('#fancy, #btn').fadeOut('slow', function(){
+        $('#bank, #btn-bk').fadeIn('slow');
+    });
+});
+
+$('#btn-bk').click(function(e){    
+    $('#bank, #btn-bk').fadeOut('slow', function(){
+        $('#fancy, #btn').fadeIn('slow');
+    });
+});

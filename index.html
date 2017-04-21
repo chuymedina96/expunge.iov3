@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Expunge.io</title>
+    <link rel="shortcut icon" href="img/favicon.png"/>
     <link href="css/animate.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/freelancer.css" rel="stylesheet">
@@ -41,13 +42,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Home</a>
+                        <a href="#page-top">Home</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#contact">FAQs</a>
+                        <a href="#faqs">FAQs</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Español</a>
@@ -60,7 +61,7 @@
         <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">FREE LEGAL AID HELP</a></li>
+        <li class="page-scroll"><a href="#legal">FREE LEGAL AID HELP</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -78,13 +79,22 @@
             <div class="row">
                 <div class="col-lg-12">
                     <img class="img-responsive logo" src="img/logo.png" alt="">
-                    <div class="intro-text">
+                    <div class="intro-text" id="fancy">
                         <h1 class="name">Erase your Illinois juvenile record!</h1>
                         <span class="skills">If you were arrested in IL when you were under 18, you probably have a juvenile record. 
                         </span>
                     </div>
                     <br>
-                    <a href="#" class="btn btn-lg btn-warning button-hover" id ="find-button">Find out if you`re eligible</a>
+                    <a href="#" class="btn btn-lg btn-warning button-hover" id="btn">Find out if you`re eligible</a>
+                    <div id="btn-bk"><a href="#">back</a></div>
+                    
+                    <div id="bank" class="disclaimer">
+                        <h1>Disclaimer</h1>
+                        <span class="skills">This site does not serve as a substitute for legal aid. If you're unsure about any questions, you can speak with a lawyer (for free!) by clicking Legal Help at the top of the page.
+                            By using expunge.io, you agree to the  <a href="#">privacy policy</a>  and  <a href="#">terms of use</a> . 
+                        </span><br>
+                        <a href="#" class="btn btn-lg btn-warning">Ok, I understand. Let`s get started.</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -115,6 +125,177 @@
             </div>
         </div>
     </section>
+    <section class="succeed" id="faqs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-header">
+                    <h2 class="text-center">Frequently Asked Questions</h2>
+                </div>
+                    
+                    <div class="panel-group" id="q1">
+                      <div class="panel panel-default">
+                        <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#q1" href="#collapse1">
+                          <h4>
+                            <i class="fa fa-chevron-circle-right fa-lg plusminus"></i>
+                            Is my juvenile record a criminal conviction?
+                          </h4>
+                          <div class='clearfix'></div>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <p>
+                              No, a juvenile record is not a criminal conviction, even if you were "found guilty" in juvenile court. In Illinois, you cannot be convicted of a crime in juvenile court, because juvenile court is separate from (adult) criminal court.
+                            </p>
+                            <p>
+                              If a job application asks you about criminal convictions, you should not reveal your juvenile record. If you think a job has seen your juvenile record, contact the Juvenile Expungement Help Desk at 312-229-6359.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="panel-group" id="q2">
+                      <div class="panel panel-default">
+                        <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#q2" href="#collapse2">
+                          <h4>
+                            <i class="fa fa-chevron-circle-right fa-lg plusminus"></i>
+                            After I find out I am eligible to apply for juvenile expungement in Illinois, what do I have to do?
+                          </h4>
+                          <div class='clearfix'></div>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <p>
+                              Remember that <a href="#">free legal help</a> is available to help you complete the process! Use it! To petition for juvenile expungement, you will need to:
+                              <ol>
+                                <li> Get a copy of your RAP sheet</li>
+                                <li> Fill out a petition form</li>
+                                <li> Submit your petition to the appropriate court</li>
+                              </ol>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="panel-group" id="q3">
+                      <div class="panel panel-default">
+                        <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#q3" href="#collapse3">
+                          <h4>
+                            <i class="fa fa-chevron-circle-right fa-lg plusminus"></i>
+                            How do I get my RAP sheet?
+                          </h4>
+                          <div class='clearfix'></div>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <p>You can pick it up at the juvenile expungement help desk. <a href="{{ site.baseurl }}/applying.html">Click here for instructions</a>.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="panel-group" id="q4">
+                      <div class="panel panel-default">
+                        <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#q4" href="#collapse4">
+                          <h4>
+                            <i class="fa fa-chevron-circle-right fa-lg plusminus"></i>
+                            How much does juvenile expungement cost?
+                          </h4>
+                          <div class='clearfix'></div>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <p>
+                              It costs $124 to expunge a single arrest, plus an extra $64 for each additional arrest - this includes filing fees (to the court) and the expungement fee (to the IL state police). However, many people qualify for a fee waiver that makes expungement free.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="panel-group" id="q5">
+                      <div class="panel panel-default">
+                        <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#q5" href="#collapse5">
+                          <h4>
+                            <i class="fa fa-chevron-circle-right fa-lg plusminus"></i>
+                            How long does the process take?
+                          </h4>
+                          <div class='clearfix'></div>
+                        </div>
+                        <div id="collapse5" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <p>
+                              Usually, a court date is scheduled about 1.5 months from the petition date. After a judge approves the petition on the court date, it takes about 2 months for the police to erase records. So, 3.5 months total. If necessary, expungement can be expedited to about 2.5 months total.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="panel-group" id="q6">
+                      <div class="panel panel-default">
+                        <div class="panel-heading collapsed" data-toggle="collapse" data-parent="#q6" href="#collapse6">
+                          <h4>
+                            <i class="fa fa-chevron-circle-right fa-lg plusminus"></i>
+                            After I petition for juvenile expungement, what are the chances that my petition will be approved?
+                          </h4>
+                          <div class='clearfix'></div>
+                        </div>
+                        <div id="collapse6" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <p>
+                              Whether your petition is approved is up to the judge. However, in the past, <a href="http://chiyouthjustice.wordpress.com/2013/02/04/cook-county-juvenile-expungement-numbers-vs-arrests/">almost all</a> petitions have been approved.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+<!--<div class="well">
+  <h4>Interested in learning more about juvenile justice & expungement? Check out these links:</h4>
+  <ul>
+    <li><a href="http://www.illinoislegalaid.org/index.cfm?fuseaction=home.dsp_Content&contentID=7064#">Illinois Legal Aid Online</a></li>
+    <li><a href="http://rapgenius.com/Illinois-criminal-justice-information-authority-juvenile-criminal-records-lyrics">Illinois Juvenile Criminal Records - explained on Rap Genius</a></li>
+    <li><a href="https://vine.co/u/1031276355163230208">Expungement vocabulary - explained on Vine</a></li>
+    <li><a href="https://docs.google.com/file/d/0ByNPZcL7VWcVODVkb20wYU5vOVk/edit">Mikva JJC Full Report 2013</a></li>
+  </ul>
+</div>-->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="legal" id="legal">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Free Legal Aid!</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="camille" src="img/camille.jpg"></img>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>For free legal help, call Camille!
+                    <br>
+                    (312) 229-6359
+                    </h3>
+                </div>
+                <div class="col-lg-6">
+                    <h3>
+                        Camille works at the Juvenile Expungement Help Desk. This is a free service & the lawyers are eager to help you!
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <section id="portfolio">
         <div class="container">
             <div class="row">
@@ -537,7 +718,7 @@
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
-    <script src="js/freelancer.min.js"></script>
+    <script src="js/freelancer.js"></script>
     
 </body>
 </html>
