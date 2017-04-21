@@ -1,5 +1,3 @@
-// Freelancer Theme JavaScript
-
 (function($) {
     "use strict"; // Start of use strict
 
@@ -55,12 +53,12 @@ $(document).ready(function() {
   
 $('#btn').click(function(e){    
     $('#fancy, #btn').fadeOut('slow', function(){
-        $('#bank, #btn-bk').fadeIn('slow');
+        $('#bank, #btn-bk').fadeIn('fast');
     });
 });
 
 $('#btn-bk').click(function(e){    
-    $('#bank, #btn-bk').fadeOut('slow', function(){
+    $('#bank, #btn-bk').fadeOut('fast', function(){
         $('#fancy, #btn').fadeIn('slow');
     });
 });
