@@ -53,12 +53,17 @@ $(document).ready(function() {
   
 $('#btn').click(function(e){    
     $('#fancy, #btn').fadeOut('slow', function(){
-        $('#bank, #btn-bk').fadeIn('fast');
+        $('#bank, #btn-bk').fadeIn('slow');
     });
 });
 
 $('#btn-bk').click(function(e){    
-    $('#bank, #btn-bk').fadeOut('fast', function(){
+    $('#bank, #btn-bk').fadeOut('slow', function(){
         $('#fancy, #btn').fadeIn('slow');
+    });
+});
+$('#btn').click(function(e){    
+    $('#fancy2, #btn').fadeOut('slow', function(){
+        $('#bank, #btn-bk').fadeIn('slow');
     });
 });
