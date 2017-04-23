@@ -589,7 +589,10 @@ a.call {
   display:none;
   
 }
-
+.disclaimer {
+  font-size:20px;
+  color:#fff;
+}
 #disclaimer-h1{
   font-size: 60px;
 }
