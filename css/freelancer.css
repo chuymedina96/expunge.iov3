@@ -558,12 +558,12 @@ div#maincontent {
   font-size: 16px;
 }
 section.succeed {
-  background: #2EB83D;
+  background: #00e6e6;
   color: white;
   height: 1100px;
 }
 section.legal {
-  background: blue;
+  background: #00cccc;
   color: white;
   height: 800px;
 }
@@ -573,8 +573,13 @@ section.legal {
 .panel h4 {
   color: grey;
 }
-.camille{
-  text-align: center;
+.camille .img-responsive{
+  margin: 0 auto;
+  border-radius: 100px;
+}
+a.call {
+  text-decoration: none;
+  color: #fff;
 }
 #bank {
   display:none;
@@ -598,7 +603,7 @@ section.legal {
   }
   header {
     background: linear-gradient(rgba(0,0,0, .7), transparent 100%),
-              linear-gradient(0deg, #43BDBD, transparent), url(../img/chitowncity.jpg);
+                linear-gradient(0deg, #43BDBD, transparent), url(../img/chitowncity.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
