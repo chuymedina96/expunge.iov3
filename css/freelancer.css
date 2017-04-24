@@ -601,6 +601,9 @@ a.call {
   .logo {
     display: none;
   }
+  #disclaimer-h1{
+    font-size:30px;
+  }
   header {
     background: linear-gradient(rgba(0,0,0, .7), transparent 100%),
                 linear-gradient(0deg, #43BDBD, transparent), url(../img/chitowncity.jpg);
