@@ -544,11 +544,6 @@ section.legal {
     margin: 0 auto;
     border-radius: 100px
 }
-
-a.call {
-    text-decoration: none;
-    color: #fff
-}
 #bank {display: none;}
 #btn-bk {display: none;}
 #container{display:none;}
