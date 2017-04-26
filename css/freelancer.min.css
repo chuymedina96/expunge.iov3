@@ -550,13 +550,8 @@ a.call {
     color: #fff
 }
 
-#bank {
-    display: none
-}
-
-#btn-bk {
-    display: none
-}
+#bank {display: none;}
+#btn-bk {display: none;}
 
 .disclaimer {
     font-size: 20px;
