@@ -549,10 +549,9 @@ a.call {
     text-decoration: none;
     color: #fff
 }
-
 #bank {display: none;}
 #btn-bk {display: none;}
-
+#container{display:none;}
 .disclaimer {
     font-size: 20px;
     color: #fff
@@ -565,7 +564,6 @@ a.call {
     color: #00e6e6;
     text-decoration: underline;
 }
-
 @media(max-width:414px) {
     .logo {
         display: none
