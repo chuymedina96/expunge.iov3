@@ -12,6 +12,10 @@ $(document).ready(function(){
 	    {
 	    	quote: "something",
 	    	name: "Chuy"
+	    },
+	    {
+	    	quote: "something else",
+	    	name: "chuy"
 	    }
 	];
 		
