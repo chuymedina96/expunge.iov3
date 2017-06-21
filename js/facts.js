@@ -16,6 +16,38 @@ $(document).ready(function(){
 	    {
 	    	quote: "something else",
 	    	name: "chuy"
+	    },
+	    {
+	    	quote: "1",
+	    	name: "chuy"
+	    },
+	    {
+	    	quote: "2",
+	    	name: "chuy"
+	    },
+	    {
+	    	quote: "3",
+	    	name: "chuy"
+	    },
+	    {
+	    	quote: "4",
+	    	name: "chuy"
+	    },
+	    {
+	    	quote: "5",
+	    	name: "chuy"
+	    },
+	    {
+	    	quote: "6",
+	    	name: "chuy"
+	    },
+	    {
+	    	quote: "7",
+	    	name: "chuy"
+	    },
+	    {
+	    	quote: "8",
+	    	name: "chuy"
 	    }
 	];
 		
