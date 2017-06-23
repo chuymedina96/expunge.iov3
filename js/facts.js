@@ -52,7 +52,7 @@ $(document).ready(function(){
 	];
 		
 
-		$ser('#quoteButton').click(function(evt){
+		$('#quoteButton').click(function(evt){
 			//define the containers of the info we target
 			var quote = $('#quoteContainer p').text();
 			var quoteGenius = $('#quoteGenius').text();
