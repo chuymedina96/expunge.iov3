@@ -19,15 +19,15 @@
 
 $(document).ready(function() {
     $(".plusminus").parent().parent().click(function() {
-        $(this).hasClass("collapsed") ? $(this).find("i").removeClass("fa-chevron-circle-right").addClass("fa-chevron-circle-down") : $(this).find("i").removeClass("fa-chevron-circle-down").addClass("fa-chevron-circle-right")
+        $(this).hasClass("collapsed") ? $(this).find("i").removeClass("fa-chevron-circle-right").addClass("fa-chevron-circle-down") : $(this).find("i").removeClass("fa-chevron-circle-down").addClass("fa-chevron-circle-right");
     })
 }), $("#btn").click(function(a) {
     $("#fancy, #btn").fadeOut(1000, function() {
-        $("#bank, #btn-bk").fadeIn(1000)
+        $("#bank, #btn-bk").fadeIn(1000);
     })
 }), $("#btn-bk").click(function(a) {
     $("#bank, #btn-bk").fadeOut(1000, function() {
-        $("#fancy, #btn").fadeIn(1000)
+        $("#fancy, #btn").fadeIn(1000);
     })
 }), $("#understand").click(function() {
     $("#btn-bk, #bank").fadeOut(1000, function() {
@@ -35,15 +35,15 @@ $(document).ready(function() {
     })
 }), $("#btn-back").click(function() {
     $("#container, #btn-back").fadeOut(1000, function() {
-        $("#bank, #btn-bk").fadeIn(1000)
+        $("#bank, #btn-bk").fadeIn(1000);
     })
 }), $("#sixteen").click(function() {
     $("#container, #btn-back").fadeOut(1000, function() {
-        $("#results, #btn-backItUp").fadeIn(1000)
+        $("#results, #btn-backItUp").fadeIn(1000);
     })
 }), $("#btn-backItUp").click(function() {
     $("#results, #btn-backItUp").fadeOut(1000, function() {
-        $("#container, #btn-back").fadeIn(1000)
+        $("#container, #btn-back").fadeIn(1000);
     })
 });
 
