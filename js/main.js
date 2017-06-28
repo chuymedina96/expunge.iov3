@@ -22,28 +22,28 @@ $(document).ready(function() {
         $(this).hasClass("collapsed") ? $(this).find("i").removeClass("fa-chevron-circle-right").addClass("fa-chevron-circle-down") : $(this).find("i").removeClass("fa-chevron-circle-down").addClass("fa-chevron-circle-right")
     })
 }), $("#btn").click(function(a) {
-    $("#fancy, #btn").fadeOut("slow", function() {
-        $("#bank, #btn-bk").fadeIn("slow")
+    $("#fancy, #btn").fadeOut(1000, function() {
+        $("#bank, #btn-bk").fadeIn(1000)
     })
 }), $("#btn-bk").click(function(a) {
-    $("#bank, #btn-bk").fadeOut("slow", function() {
-        $("#fancy, #btn").fadeIn("slow")
+    $("#bank, #btn-bk").fadeOut(1000, function() {
+        $("#fancy, #btn").fadeIn(1000)
     })
 }), $("#understand").click(function() {
-    $("#btn-bk, #bank").fadeOut("slow", function() {
-        $("#btn-back").fadeIn("slow"), $("#container").fadeIn("slow")
+    $("#btn-bk, #bank").fadeOut(1000, function() {
+        $("#btn-back").fadeIn(1000), $("#container").fadeIn(1000)
     })
 }), $("#btn-back").click(function() {
-    $("#container, #btn-back").fadeOut("slow", function() {
-        $("#bank, #btn-bk").fadeIn("slow")
+    $("#container, #btn-back").fadeOut(1000, function() {
+        $("#bank, #btn-bk").fadeIn(1000)
     })
 }), $("#sixteen").click(function() {
-    $("#container, #btn-back").fadeOut("slow", function() {
-        $("#results, #btn-backItUp").fadeIn("slow")
+    $("#container, #btn-back").fadeOut(1000, function() {
+        $("#results, #btn-backItUp").fadeIn(1000)
     })
 }), $("#btn-backItUp").click(function() {
-    $("#results, #btn-backItUp").fadeOut("slow", function() {
-        $("#container, #btn-back").fadeIn("slow")
+    $("#results, #btn-backItUp").fadeOut(1000, function() {
+        $("#container, #btn-back").fadeIn(1000)
     })
 });
 
