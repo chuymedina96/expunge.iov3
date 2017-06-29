@@ -154,7 +154,7 @@
                     
                 </div>
                 <div class="container text-center" style="padding-bottom: 20px;">
-                  <button class="learn-more btn btn-lg btn-warning button-hover">Learn More</button>
+                  <a href="#portfolioModal1" class="portfolio-link" id="learn-button" data-toggle="modal"><button class="learn-more btn btn-lg btn-warning button-hover">Learn More</button></a>
                 </div>
         
                 <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -529,6 +529,35 @@
     </div>
   </div>
 </div>
+<div class="portfolio-modal modal animated bounceInDown" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>More on expungement</h2>
+                            <p>EXPUNGEMENT is the legal process of ERASING juvenile arrests and court cases.. 
+                              Only a judge can order that records be expunged. Once you have your record expunged, you can lawfully say that you do not have a criminal record on applications. 
+                            </p>
+                            <p>
+                              If you were arrested as a juvenile, the police station and the court began creating records that are kept and maintained from the moment you were arrested. This means that you have a juvenile record, EVEN IF you were arrested and released from the police station, your case was dismissed, or you were found “not delinquent”/“not guilty.” Even if you were placed on supervision or probation, you still have a juvenile record that doesn’t automatically go away.
+                            </p>
+                            <p>
+                              Even though juvenile records are supposed to be confidential, there many exceptions to this general rule. That means that there are a lot of people who could potentially see your record legally. <a href="http://ijjc.illinois.gov/sites/ijjc.illinois.gov/files/assets/Burdened%20for%20Life.pdf">Juvenile records are also sometimes unlawfully disclosed to employers, landlords, schools, and licensing boards.</a>
+                            </p>
+                            <button type="button" class="modal-close btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 <!-- END OF TERMS MODAL -->
 
     <script src="js/jquery.min.js"></script>
@@ -542,7 +571,7 @@
       $(".logo").addClass("animated tada");
       $(".navbar-brand").addClass("animated tada");
         $(".learn-more").click(function() {
-          $(".learn-more").addClass("animated bounce");
+          $(".learn-more").addClass("animated tada");
         });
     });
     </script>
