@@ -75,12 +75,12 @@
                     <img class="img-responsive logo" src="img/logo.png" alt="">
                     <div class="intro-text" id="fancy">
                         <h1 class="name">Erase your Illinois juvenile record!</h1>
-                        <span class="skills">If you were arrested in IL when you were under 18, you probably have a juvenile record.</span>
+                        <span class="skills">If you were arrested in IL when you were under 18, you probably have a juvenile record. <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal" class="btn btn-lg btn-warning button-hover">Learn More!</a></span>
                         
                     </div>
                     <br>
                     <a href="#" class="btn btn-lg btn-warning button-hover" id="btn">Find out if you`re eligible</a>
-              
+                   
                 
                     <div class="row">
                         <div class="col-md-12 text-center">
@@ -558,6 +558,31 @@
             </div>
         </div>
     </div>
+  <div class="portfolio-modal modal animated bounceInRight" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>More on expungement</h2>
+                            <p>A juvenile record does not go away on its own, and you're better off without one. A juvenile record can be a serious barrier to a good job, housing, or academic programs. The good news: most juvenile records can be erased through a process called juvenile expungement, and as of January 1, 2017, many people can start the expungement process at ANY AGE!
+                            </p>
+                            <p>
+                              This is your chance to remove these barriers that are standing between you and the future you want. It’s okay if you’ve made some mistakes in the past, but now is the time to move away from the past and give yourself all the opportunities you can! Having a juvenile record can make it hard to get a job, obtain credit, find a place to live, qualify for student loans, and so much more. Expunging your record makes sure that people see you for who you really are NOW, and not judge you based on past mistakes.
+                            </p>
+                            <button type="button" class="modal-close btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 <!-- END OF TERMS MODAL -->
 
     <script src="js/jquery.min.js"></script>
@@ -565,14 +590,10 @@
     <script src="js/jQuery.backstrech.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/facts.js"></script>
     <script>
     $(document).ready(function(){
       $(".logo").addClass("animated tada");
       $(".navbar-brand").addClass("animated tada");
-        $(".learn-more").click(function() {
-          $(".learn-more").addClass("animated tada");
-        });
     });
     </script>
 </body>
