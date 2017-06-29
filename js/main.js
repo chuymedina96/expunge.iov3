@@ -58,7 +58,7 @@ $("#sixteen").click(function() {
 $("#btn-backItUp").click(function() {
     $("#results, #btn-backItUp").fadeOut(1000, function() {
         $("#container, #btn-back").fadeIn(1000);
-    })
+    });
 });
 // Or, to start a slideshow, just pass in an array of images
 /*backstretch-overlay {
