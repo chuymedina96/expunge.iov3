@@ -75,8 +75,8 @@
                     <img class="img-responsive logo" src="img/logo.png" alt="">
                     <div class="intro-text" id="fancy">
                         <h1 class="name">Erase your Illinois juvenile record!</h1>
-                        <span class="skills">If you were arrested in IL when you were under 18, you probably have a juvenile record. 
-                        </span>
+                        <span class="skills">If you were arrested in IL when you were under 18, you probably have a juvenile record.</span>
+                        
                     </div>
                     <br>
                     <a href="#" class="btn btn-lg btn-warning button-hover" id="btn">Find out if you`re eligible</a>
@@ -137,7 +137,7 @@
     </header>
 <!-- END OF HEADER-->
 <!--ABOUT SECTION-->
-    <section class="success" id="about">
+    <section style ="height:1000px;" class="success" id="about"> <!-- I used inline styling very rarely-->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -146,17 +146,19 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
-                    <p>This is a resource for people with juvenile records in Illinois.
-                    A juvenile record can be a barrier to employment, education, and housing. 
-                    Luckily, juvenile records can be erased through the expungement process. 
-                    However, while the majority of juvenile records can be erased, few people know about or take advantage of the opportunity. 
-                    Expunge.io seeks to clarify juvenile expungement, with the hope of more people getting their records erased!
-                    </p>
+                <div class="col-lg-12 text-center">
+                    <h4>This is a resource for people with juvenile records in Illinois.</h4>
+                    <br>
+                    <p><span><em class="about-text">A juvenile record can be a barrier to employment, education, and housing.</em></span> Luckily, juvenile records can be erased through the expungement process. However, while the majority of juvenile records can be erased, few people know about or take advantage of the opportunity. Expunge.io seeks to clarify juvenile expungement, with the hope of more people getting their records erased!</p>
                     <hr>
+                    
                 </div>
+                <div class="container text-center" style="padding-bottom: 20px;">
+                  <button class="learn-more btn btn-lg btn-warning button-hover">Learn More</button>
+                </div>
+        
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/aNTu6SrZGLY' frameborder='0' allowfullscreen></iframe></div>
+                     <style>.embed-container {position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/aNTu6SrZGLY' frameborder='0' allowfullscreen></iframe></div>
                 </div>
             </div>
         </div>
@@ -531,6 +533,7 @@
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jQuery.backstrech.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/facts.js"></script>
@@ -538,7 +541,10 @@
     $(document).ready(function(){
       $(".logo").addClass("animated tada");
       $(".navbar-brand").addClass("animated tada");
-      });
+        $(".learn-more").click(function() {
+          $(".learn-more").addClass("animated bounce");
+        });
+    });
     </script>
 </body>
 </html>

@@ -75,7 +75,7 @@ hr.star-primary:after {
 }
 
 header {
-    background: linear-gradient(rgba(0, 0, 0, .7), transparent 100%), linear-gradient(0deg, #43BDBD, transparent), url(../img/chitowncity.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .7), transparent 100%), linear-gradient(0deg, #43BDBD, transparent), url("../img/chitowncity.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -214,7 +214,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0
+    padding: 100px 0;
 }
 
 section h2 {
@@ -225,21 +225,21 @@ section h2 {
 section.success {
     background: #43BDBD;
     color: #fff;
-    height: 800px
+    height: 1500px;
 }
 
 @media (max-width: 767px) {
-    section {e
-        padding: 75px 0
+    section {
+        padding: 75px 0;
     }
     section.first {
-        padding-top: 75px
+        padding-top: 75px;
     }
 }
 
 @media (min-width: 767px) {
     #portfolio .portfolio-item {
-        margin: 0 0 30px
+        margin: 0 0 30px;
     }
 }
 
@@ -247,7 +247,7 @@ section.success {
     position: relative;
     margin-bottom: 0;
     padding-bottom: .5em;
-    border-bottom: 1px solid #eee
+    border-bottom: 1px solid #eee;
 }
 
 .floating-label-form-group input,
@@ -602,4 +602,9 @@ section.legal {
     background-size:cover;
     }
 }
-
+p.em.about-text {
+    font-weight: 800;
+    color: black;
+}
+/* NEW CONTENT!!
+*/
