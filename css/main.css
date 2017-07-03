@@ -4,19 +4,18 @@ body {
 }
 
 p {
-    font-size: 20px
+    font-size: 20px;
 }
 
-p.small {
-    font-size: 16px
+.small {
+    font-size: 16px;
 }
-
 a,
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #18BC9C
+    color: #0cc;
 }
 
 h1,
@@ -28,52 +27,11 @@ h6 {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    color: #fff
+    color: #fff;
 }
-
-hr.star-light,
-hr.star-primary {
-    padding: 0;
-    border: none;
-    border-top: solid 5px;
-    text-align: center;
-    max-width: 250px;
-    margin: 25px auto 30px
-}
-
-hr.star-light:after,
-hr.star-primary:after {
-    content: "\f005";
-    font-family: FontAwesome;
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    font-size: 2em;
-    padding: 0 .25em
-}
-
-hr.star-light {
-    border-color: #fff
-}
-
-hr.star-light:after {
-    background-color: #18BC9C;
-    color: #fff
-}
-
-hr.star-primary {
-    border-color: #2C3E50
-}
-
-hr.star-primary:after {
-    background-color: #fff;
-    color: #2C3E50
-}
-
 .img-centered {
-    margin: 0 auto
+    margin: 0 auto;
 }
-
 header {
     background: linear-gradient(rgba(0, 0, 0, .7), transparent 100%), linear-gradient(0deg, #43BDBD, transparent), url("../img/chitowncity.jpg");
     background-repeat: no-repeat;
@@ -90,12 +48,12 @@ header {
 
 header .container {
     padding-top: 100px;
-    padding-bottom: 50px
+    padding-bottom: 50px;
 }
 
 header img {
     display: block;
-    margin: 0 auto 20px
+    margin: 0 auto 20px;
 }
 
 header .intro-text .name {
@@ -104,7 +62,7 @@ header .intro-text .name {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 2em;
-    color: #fff
+    color: #fff;
 }
 
 header .intro-text .skills {
@@ -602,5 +560,3 @@ section.legal {
     background-size:cover;
     }
 }
-/* NEW CONTENT!!
-*/
