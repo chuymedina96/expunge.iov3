@@ -21,7 +21,7 @@ a("#mainNav").affix({
     });
 }(jQuery);
 
-var displayJquery = $(document).ready(function() {
+$(document).ready(function() {
     $(".plusminus").parent().parent().click(function() {
         $(this).hasClass("collapsed") ? $(this).find("i").removeClass("fa-chevron-circle-right").addClass("fa-chevron-circle-down") : $(this).find("i").removeClass("fa-chevron-circle-down").addClass("fa-chevron-circle-right");
     });
@@ -62,7 +62,6 @@ var displayJquery = $(document).ready(function() {
         });
     });
 });
-displayJquery();
 // Or, to start a slideshow, just pass in an array of images
 /*backstretch-overlay {
     position: absolute;
