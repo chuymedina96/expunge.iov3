@@ -221,11 +221,4 @@ $("header").backstretch([
 ], {duration: 5000});
 */
 
-
-
-    
-    
-    
-});
-
 		
