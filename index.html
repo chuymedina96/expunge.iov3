@@ -51,14 +51,9 @@
                         <a href="#contact">Español</a>
                     </li>
                 </ul>
-                <form class="navbar-form navbar-right">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                  </div>
-                  <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
-                </form>
                   <ul class="nav navbar-nav navbar-right">
                     <li class="page-scroll"><a href="#legal">FREE LEGAL AID HELP</a></li>
+                    <li><a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">Did you know?</a></li>
                   </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -417,7 +412,7 @@
                               Even though juvenile records are supposed to be confidential, there many exceptions to this general rule. That means that there are a lot of people who could potentially see your record legally. <a href="http://ijjc.illinois.gov/sites/ijjc.illinois.gov/files/assets/Burdened%20for%20Life.pdf">Juvenile records are also sometimes unlawfully disclosed to employers, landlords, schools, and licensing boards.</a>
                             </p>
                             
-                            <button type="button" class="modal-close btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button id="close" type="button" class="modal-close btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
@@ -662,6 +657,98 @@
                         </ul>
                       </div>
                     
+                            <button type="button" class="modal-close btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal animated bounceInRight" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Did you know?</h2>
+                            <style>body{
+	font-family: 'Roboto', sans-serif;
+}
+
+#containerr{
+	width:800px;
+	margin:50px auto;
+	padding: 20px;
+	width:100%;
+	background-color: #F5F5F0;
+}
+#containerr h2{
+	text-align:center;
+	color:#045;
+}
+
+#quoteContainerr{
+	width:100%;
+	padding:10px;
+	margin:30px auto;
+	text-align: center;
+  	height:70px;
+  	background: #fff;
+}
+#buttonContainerr{
+	width: 100%;
+	text-align: center;
+}
+#quoteButton{
+	width:200px;
+	margin-top: 10px;
+	border:2px solid #46b8da;
+	background-color:#43BDBD;
+	font-family: inherit;
+	font-weight: bold;
+	padding:5px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 100px;
+	color: #fff;
+}
+
+#quoteButton:hover{
+	cursor:pointer;
+	
+}
+#quoteButton:active{
+	cursor: pointer;
+}
+#quoteButton{
+	display: inline-block;
+	background:#43BDBD;
+}
+#quoteGenius{
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+}
+</style>
+                            <div id="containerr" class="facts">
+                          		<h2 class="title-effect">Did you know?</h2>
+                          			<div id="quoteContainerr">
+                          				<p></p>
+                          				<p id="quoteGenius"></p>			
+                          			</div><!--end quoteContainer-->
+                          			
+                          			<div id="buttonContainerr">
+                          				<a href="#" id="quoteButton">New fact</a>
+                          		</div><!--end buttonContainer-->
+                          
+                          
+                          	</div><!--end container-->
                             <button type="button" class="modal-close btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
