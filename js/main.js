@@ -193,7 +193,7 @@ $(document).ready(function() {
       });  
 			
 			break;
-		};//end for loop
+		}//end for loop
 	
 	});//end quoteButton function
 		
