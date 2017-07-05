@@ -559,3 +559,58 @@ section.legal {
     background-size:cover;
     }
 }
+/*FACTS GENERATOR CSS*/
+#containerr{
+	width:800px;
+	margin:50px auto;
+	padding: 20px;
+	width:100%;
+	background-color: #F5F5F0;
+}
+#containerr h2{
+	text-align:center;
+	color:#045;
+}
+
+#quoteContainerr{
+	width:100%;
+	padding:10px;
+	margin:30px auto;
+	text-align: center;
+  	height:70px;
+  	background: #fff;
+}
+#buttonContainerr{
+	width: 100%;
+	text-align: center;
+}
+#quoteButton{
+	width:200px;
+	margin-top: 10px;
+	border:2px solid #46b8da;
+	background-color:#43BDBD;
+	font-family: inherit;
+	font-weight: bold;
+	padding:5px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 100px;
+	color: #fff;
+}
+
+#quoteButton:hover{
+	cursor:pointer;
+	
+}
+#quoteButton:active{
+	cursor: pointer;
+}
+#quoteButton{
+	display: inline-block;
+	background:#43BDBD;
+}
+#quoteGenius{
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+}
