@@ -61,9 +61,7 @@ $(document).ready(function() {
             $("#container, #btn-back").fadeIn(1000);
         });
     });
-    $("#quoteButton").click(function(){
-    	$(".title-effect").addClass("animated tada");
-    });
+
 
     
     
@@ -182,12 +180,12 @@ $(document).ready(function() {
 			var newQuoteText = quoteSource[randomNumber].quote;
 			var newQuoteGenius = quoteSource[randomNumber].name;
 			//console.log(newQuoteText,newQuoteGenius);
-            var timeAnimation = 500;
+            var timeAnimation = 2000;
             var quoteContainerr = $('#quoteContainerr');
               //fade out animation with callback
               quoteContainerr.fadeOut(timeAnimation, function(){
                 quoteContainerr.html('');
-        				quoteContainerr.append('<p>'+newQuoteText+'</p>'+'<p id="quoteGenius">'+'-								'+newQuoteGenius+'</p>');
+        				quoteContainerr.append('<p>'+newQuoteText+'</p>'+'<p id="quoteGenius">'+'-'+newQuoteGenius+'</p>');
                 
                 //fadein animation.
                 quoteContainerr.fadeIn(timeAnimation);
@@ -197,7 +195,6 @@ $(document).ready(function() {
 		}//end for loop
 	
 	});//end quoteButton function
-		
 		
 });//end document ready
 // Or, to start a slideshow, just pass in an array of images

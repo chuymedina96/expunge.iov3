@@ -681,8 +681,8 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                         
-                            <div id="containerr" class="facts">
-                          		<h2 id="title-effect">Did you know?</h2>
+                            <div id="containerr" class="animated wobble">
+                          		<h2 class="title">Did you know?</h2>
                           			<div id="quoteContainerr">
                           				<p></p>
                           				<p id="quoteGenius"></p>			
@@ -712,6 +712,9 @@
     $(document).ready(function(){
       $(".logo").addClass("animated tada");
       $(".navbar-brand").addClass("animated tada");
+      $("#quoteButton").click(function(){
+    	$(".title").addClass("animated tada");
+    });
     });
     </script>
     <!--<script>
