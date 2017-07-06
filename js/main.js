@@ -62,7 +62,7 @@ $(document).ready(function() {
         });
     });
     $("#close").click(function(){
-        $(".portfolio-modal").addClass("animated fadeOut");
+        
     });
     
     
