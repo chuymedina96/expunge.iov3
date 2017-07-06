@@ -180,7 +180,7 @@ $(document).ready(function() {
 			var newQuoteText = quoteSource[randomNumber].quote;
 			var newQuoteGenius = quoteSource[randomNumber].name;
 			//console.log(newQuoteText,newQuoteGenius);
-            var timeAnimation = 2000;
+            var timeAnimation = 600;
             var quoteContainerr = $('#quoteContainerr');
               //fade out animation with callback
               quoteContainerr.fadeOut(timeAnimation, function(){
