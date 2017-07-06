@@ -189,14 +189,18 @@ $(document).ready(function() {
                 
                 //fadein animation.
                 quoteContainerr.fadeIn(timeAnimation);
-      });  
-			
+      }); 
+    	function setRandomQuote() {
+			$('#tweetQuote').attr('href', 'https://twitter.com/intent/tweet?text='+ "'" + newQuoteText + "'" + " - " + newQuoteGenius ).attr('target', '_blank');
+			}
+		setRandomQuote();
 			break;
 		}//end for loop
 	
 	});//end quoteButton function
-		
-});//end document ready
+});
+
+//end document ready
 // Or, to start a slideshow, just pass in an array of images
 /*backstretch-overlay {
     position: absolute;
