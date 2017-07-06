@@ -582,7 +582,7 @@ section.legal {
 }
 #buttonContainerr{
 	width: 100%;
-	text-align: center;
+	
 }
 #quoteButton{
 	width:200px;
@@ -594,12 +594,12 @@ section.legal {
 	padding:5px;
 	text-decoration: none;
 	text-align: center;
-	border-radius: 100px;
 	color: #fff;
 }
 
 #quoteButton:hover{
 	cursor:pointer;
+	font-weight: 800;
 	
 }
 #quoteButton:active{
