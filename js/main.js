@@ -61,6 +61,10 @@ $(document).ready(function() {
             $("#container, #btn-back").fadeIn(1000);
         });
     });
+    $("#quoteButton").click(function(){
+    	$(".title-effect").addClass("animated tada");
+    });
+
     
     
     var quoteSource=[
