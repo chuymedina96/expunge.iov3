@@ -61,9 +61,6 @@ $(document).ready(function() {
             $("#container, #btn-back").fadeIn(1000);
         });
     });
-    $("#close").click(function(){
-        
-    });
     
     
     var quoteSource=[
@@ -181,15 +178,15 @@ $(document).ready(function() {
 			var newQuoteText = quoteSource[randomNumber].quote;
 			var newQuoteGenius = quoteSource[randomNumber].name;
 			//console.log(newQuoteText,newQuoteGenius);
-      var timeAnimation = 500;
-      var quoteContainerr = $('#quoteContainerr');
-      //fade out animation with callback
-      quoteContainerr.fadeOut(timeAnimation, function(){
-        quoteContainerr.html('');
-				quoteContainerr.append('<p>'+newQuoteText+'</p>'+'<p id="quoteGenius">'+'-								'+newQuoteGenius+'</p>');
-        
-        //fadein animation.
-        quoteContainerr.fadeIn(timeAnimation);
+            var timeAnimation = 500;
+            var quoteContainerr = $('#quoteContainerr');
+              //fade out animation with callback
+              quoteContainerr.fadeOut(timeAnimation, function(){
+                quoteContainerr.html('');
+        				quoteContainerr.append('<p>'+newQuoteText+'</p>'+'<p id="quoteGenius">'+'-								'+newQuoteGenius+'</p>');
+                
+                //fadein animation.
+                quoteContainerr.fadeIn(timeAnimation);
       });  
 			
 			break;
