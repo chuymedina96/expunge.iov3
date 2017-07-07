@@ -200,6 +200,7 @@ $(document).ready(function() {
 	});//end quoteButton function
 });
 
+
 //end document ready
 // Or, to start a slideshow, just pass in an array of images
 /*backstretch-overlay {
