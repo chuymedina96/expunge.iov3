@@ -46,8 +46,8 @@ header {
 }
 
 header .container {
-    padding-top: 50px;
-    padding-bottom: 40px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 header img {
@@ -586,7 +586,7 @@ section.legal {
 	
 }
 #quoteButton{
-	width:150px;
+	width:15px;
 	margin-top: 10px;
 	border:2px solid #46b8da;
 	background-color:#43BDBD;
