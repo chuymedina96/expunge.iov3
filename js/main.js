@@ -111,7 +111,7 @@ $(document).ready(function() {
 	    	name:"Samuel Beckett"
 	    },
 	    {
-	    	quote:"Be yourself; everyone else is already taken.",
+	    	quote:"Be yourself, everyone else is already taken.",
 	    	name:"Oscar Wilde"
 	    },
 	    {
