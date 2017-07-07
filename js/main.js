@@ -67,7 +67,7 @@ $(document).ready(function() {
     
     var quoteSource=[
 		{
-			quote: "Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.",
+			quote: "Start by doing what's necessary, then do what's possible, and suddenly you are doing the impossible.",
 			name:"Francis of Assisi"
 	    },
 	    {
@@ -87,7 +87,7 @@ $(document).ready(function() {
 	    	name:"Confucius"
 	    },
 	    {
-	    	quote:"Don't watch the clock; do what it does. Keep going.",
+	    	quote:"Don't watch the clock, do what it does. Keep going.",
 	    	name:"Sam Levenson"
 	    },
 	    {
@@ -115,7 +115,7 @@ $(document).ready(function() {
 	    	name:"Oscar Wilde"
 	    },
 	    {
-	    	quote:"Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+	    	quote:"Two things are infinite: the universe and human stupidity, and I'm not sure about the universe.",
 	    	name:"Albert Einstein"
 	    },
 	    {
