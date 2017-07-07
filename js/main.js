@@ -27,44 +27,40 @@ $(document).ready(function() {
     });
     
     $("#btn").click(function() {
-        $("#fancy, #btn").fadeOut(1000, function() {
-            $("#bank, #btn-bk").fadeIn(1000);
+        $("#fancy, #btn").fadeOut(500, function() {
+            $("#bank, #btn-bk").fadeIn(500);
         });
     });
     
     $("#btn-bk").click(function() {
-        $("#bank, #btn-bk").fadeOut(1000, function() {
-            $("#fancy, #btn").fadeIn(1000);
+        $("#bank, #btn-bk").fadeOut(500, function() {
+            $("#fancy, #btn").fadeIn(500);
         });
     });
 
     $("#understand").click(function() {
-        $("#btn-bk, #bank").fadeOut(1000, function() {
-            $("#btn-back").fadeIn(1000), $("#container").fadeIn(1000);
+        $("#btn-bk, #bank").fadeOut(500, function() {
+            $("#btn-back").fadeIn(500), $("#container").fadeIn(500);
         });
     });
     
     $("#btn-back").click(function() {
-        $("#container, #btn-back").fadeOut(1000, function() {
-            $("#bank, #btn-bk").fadeIn(1000);
+        $("#container, #btn-back").fadeOut(500, function() {
+            $("#bank, #btn-bk").fadeIn(500);
         });
     });
     
     $("#sixteen").click(function() {
-        $("#container, #btn-back").fadeOut(1000, function() {
-            $("#results, #btn-backItUp").fadeIn(1000);
+        $("#container, #btn-back").fadeOut(500, function() {
+            $("#results, #btn-backItUp").fadeIn(500);
         });
     });
     
     $("#btn-backItUp").click(function() {
-        $("#results, #btn-backItUp").fadeOut(1000, function() {
-            $("#container, #btn-back").fadeIn(1000);
+        $("#results, #btn-backItUp").fadeOut(500, function() {
+            $("#container, #btn-back").fadeIn(500);
         });
     });
-
-
-    
-    
     var quoteSource=[
 		{
 			quote: "Start by doing what's necessary, then do what's possible, and suddenly you are doing the impossible.",
@@ -164,43 +160,38 @@ $(document).ready(function() {
 	    }
 
 	];
-		
-
-		$('#quoteButton').click(function(evt){
-			//define the containers of the info we target
-			var quote = $('#quoteContainerr p').text();
-			var quoteGenius = $('#quoteGenius').text();
-			//prevent browser's default action
-			evt.preventDefault();
-			//getting a new random number to attach to a quote and setting a limit
-			var sourceLength = quoteSource.length;
-			var randomNumber= Math.floor(Math.random()*sourceLength);
-			//set a new quote
-			for(i=0;i<=sourceLength;i+=1){
-			var newQuoteText = quoteSource[randomNumber].quote;
-			var newQuoteGenius = quoteSource[randomNumber].name;
-			//console.log(newQuoteText,newQuoteGenius);
-            var timeAnimation = 600;
-            var quoteContainerr = $('#quoteContainerr');
-              //fade out animation with callback
-              quoteContainerr.fadeOut(timeAnimation, function(){
-                quoteContainerr.html('');
-        				quoteContainerr.append('<p>'+newQuoteText+'</p>'+'<p id="quoteGenius">'+'-'+newQuoteGenius+'</p>');
-                
-                //fadein animation.
-                quoteContainerr.fadeIn(timeAnimation);
-      }); 
-    	function setRandomQuote() {
-			$('#tweetQuote').attr('href', 'https://twitter.com/intent/tweet?text='+ "'" + newQuoteText + "'" + " - " + newQuoteGenius ).attr('target', '_blank');
-			}
-		setRandomQuote();
+	$('#quoteButton').click(function(evt){
+		//define the containers of the info we target
+		var quote = $('#quoteContainerr p').text();
+		var quoteGenius = $('#quoteGenius').text();
+		//prevent browser's default action
+		evt.preventDefault();
+		//getting a new random number to attach to a quote and setting a limit
+		var sourceLength = quoteSource.length;
+		var randomNumber= Math.floor(Math.random()*sourceLength);
+		//set a new quote
+		for(i=0;i<=sourceLength;i+=1){
+		var newQuoteText = quoteSource[randomNumber].quote;
+		var newQuoteGenius = quoteSource[randomNumber].name;
+		//console.log(newQuoteText,newQuoteGenius);
+        var timeAnimation = 600;
+        var quoteContainerr = $('#quoteContainerr');
+          //fade out animation with callback
+          quoteContainerr.fadeOut(timeAnimation, function(){
+            quoteContainerr.html('');
+    				quoteContainerr.append('<p>'+newQuoteText+'</p>'+'<p id="quoteGenius">'+'-'+newQuoteGenius+'</p>');
+            
+            //fadein animation.
+            quoteContainerr.fadeIn(timeAnimation);
+	}); 
+    function setRandomQuote() {
+		$('#tweetQuote').attr('href', 'https://twitter.com/intent/tweet?text='+ "'" + newQuoteText + "'" + " - " + newQuoteGenius ).attr('target', '_blank');
+		}
+	setRandomQuote();
 			break;
 		}//end for loop
-	
 	});//end quoteButton function
 });
-
-
 //end document ready
 // Or, to start a slideshow, just pass in an array of images
 /*backstretch-overlay {
