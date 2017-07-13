@@ -555,7 +555,7 @@ section.legal {
 }
 @media(max-width:414px) {
     header {
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size:cover;
     }
 }
