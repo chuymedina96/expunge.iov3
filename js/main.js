@@ -61,6 +61,18 @@ $(document).ready(function() {
             $("#container, #btn-back").fadeIn(500);
         });
     });
+    
+     $("#seventeen").click(function() {
+        $("#container, #btn-back").fadeOut(500, function() {
+            $("#resultss, #btn-backItUpTwo").fadeIn(500);
+        });
+    });
+    $("#btn-backItUpTwo").click(function() {
+        $("#resultss, #btn-backItUpTwo").fadeOut(500, function() {
+            $("#container, #btn-back").fadeIn(500);
+        });
+    });
+    
     var quoteSource=[
 		{
 			quote: "Start by doing what's necessary, then do what's possible, and suddenly you are doing the impossible.",
