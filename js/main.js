@@ -74,7 +74,7 @@ $(document).ready(function() {
     });
     $("#2014").click(function() {
         $("#resultss, #btn-backItUpTwo").fadeOut(500, function() {
-            $("#results, #btn-backItUpTwo").fadeIn(500);
+            $("#results, #btn-backItUp").fadeIn(500);
         });
     });
     
