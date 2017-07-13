@@ -72,6 +72,11 @@ $(document).ready(function() {
             $("#container, #btn-back").fadeIn(500);
         });
     });
+    $("#2014").click(function() {
+        $("#resultss, #btn-backItUpTwo").fadeOut(500, function() {
+            $("#results, #btn-backItUpTwo").fadeIn(500);
+        });
+    });
     
     var quoteSource=[
 		{
