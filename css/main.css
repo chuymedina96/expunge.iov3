@@ -1,7 +1,6 @@
 body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     overflow-x: hidden;
-    color:#fff;
 }
 
 p {
@@ -489,6 +488,14 @@ section.legal {
     background: #0cc;
     color: #fff;
     height: 1000px;
+}
+
+.panel {
+    background-color: grey
+}
+
+.panel h4 {
+    color: grey
 }
 
 .camille .img-responsive {
