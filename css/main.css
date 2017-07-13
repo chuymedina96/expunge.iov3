@@ -35,7 +35,7 @@ header {
     background: linear-gradient(rgba(0, 0, 0, .7), transparent 100%), linear-gradient(0deg, #43BDBD, transparent), url("../img/chitowncity.jpg");
     background-repeat: no-repeat;
     background-position: center center;
-    
+    background-attachment: fixed;
     background-size: cover;
     width: 100%;
     -webkit-background-size: cover;
@@ -555,7 +555,7 @@ section.legal {
 }
 @media(max-width:414px) {
     header {
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size:cover;
     }
 }
