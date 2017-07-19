@@ -84,7 +84,7 @@ $(document).ready(function() {
     });
     $("#btn-backItUpTwoo").click(function(){
 		$("#adult", "#btn-backItUpTwoo").fadeOut(500);	
-    	$("#container, #btn-backTwo").fadeIn(500);
+    	$("#container, #btn-back").fadeIn(500);
     });
     
     var quoteSource=[
