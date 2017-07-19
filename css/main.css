@@ -560,6 +560,9 @@ section.legal {
     background-attachment: scroll;
     background-size:cover;
     }
+    .old-h1{
+        font-size: 35px;
+    }
 }
 /*FACTS GENERATOR CSS*/
 #containerr{
