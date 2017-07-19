@@ -79,7 +79,7 @@ $(document).ready(function() {
     });
     $("#eighteen").click(function() {
         $("#container, #btn-back").fadeOut(500, function() {
-            $("#adult, #btn-backItUpTwoo").fadeIn(500);
+            $("#adult, #btn-backItUpThree").fadeIn(500);
         });
     });
     $("#btn-backItUpThree").click(function() {
