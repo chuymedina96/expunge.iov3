@@ -92,7 +92,7 @@ $(document).ready(function() {
             $("#not_sure, #btn-backItUpFour").fadeIn(500);
         });
     });
-    $("#backItUpFour").click(function(){
+    $("#btn-backItUpFour").click(function(){
     	$("#not_sure, #btn-backItUpFour").fadeOut(500, function() {
             $("#container, #btn-backItUp").fadeIn(500);
         });
