@@ -119,7 +119,7 @@ $(document).ready(function() {
 	    	name:"Illinois Juvenile Justice Commission"
 	    },
 	    {
-	    	quote:".0.29%' - Percentage of juvenile arrests expunged in Illinois 2004-2014 (one-third of one percent)",
+	    	quote:"'.0.29%' - Percentage of juvenile arrests expunged in Illinois 2004-2014 (one-third of one percent)",
 	    	name:"Illinois Juvenile Justice Commission"
 	    },
 	    {
