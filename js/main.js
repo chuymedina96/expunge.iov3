@@ -87,7 +87,7 @@ $(document).ready(function() {
             $("#container, #btn-back").fadeIn(500);
         });
     });
-    $(".idk").click(function() {
+    $("#idk").click(function() {
         $("#container, #btn-back").fadeOut(500, function() {
             $("#not_sure, #btn-backItUpFour").fadeIn(500);
         });
