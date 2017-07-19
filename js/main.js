@@ -77,6 +77,11 @@ $(document).ready(function() {
             $("#results, #btn-backItUp").fadeIn(500);
         });
     });
+    $("#not_know").click(function() {
+        $("#resultss, #btn-backItUpTwo").fadeOut(500, function() {
+            $("#not_sure, #btn-backItUp").fadeIn(500);
+        });
+    });
     //WITH BACKITUPTHREE BUTTON
     $("#eighteen").click(function() {
         $("#container, #btn-back").fadeOut(500, function() {
