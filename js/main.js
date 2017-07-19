@@ -77,6 +77,11 @@ $(document).ready(function() {
             $("#results, #btn-backItUp").fadeIn(500);
         });
     });
+    $("#eighteen").click(function() {
+        $("#container, #btn-back").fadeOut(500, function() {
+            $("#adult, #btn-backItUpTwoo").fadeIn(500);
+        });
+    });
     
     var quoteSource=[
 		{
