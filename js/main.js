@@ -82,9 +82,14 @@ $(document).ready(function() {
             $("#adult, #btn-backItUpTwoo").fadeIn(500);
         });
     });
-    $("#btn-backItUpTwoo").click(function() {
-        $("#adult, #btn-backItUpTwoo").fadeOut(500, function() {
+    $("#btn-backItUpThree").click(function() {
+        $("#adult, #btn-backItUpThree").fadeOut(500, function() {
             $("#container, #btn-back").fadeIn(500);
+        });
+    });
+    $("#idk").click(function() {
+        $("#container, #btn-back").fadeOut(500, function() {
+            $("#not_sure, #btn-backItUpFour").fadeIn(500);
         });
     });
     
