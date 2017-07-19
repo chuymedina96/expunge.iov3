@@ -93,10 +93,10 @@ $(document).ready(function() {
         });
     });
     $("#backItUpFour").click(function(){
-    	$("#adult, #btn-backItUpFour").fadeOut(500, function() {
+    	$("#not_sure, #btn-backItUpFour").fadeOut(500, function() {
             $("#container, #btn-backItUp").fadeIn(500);
         });
-    })
+    });
     
     var quoteSource=[
 		{
