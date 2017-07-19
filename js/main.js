@@ -94,7 +94,7 @@ $(document).ready(function() {
     });
     $("#backItUpFour").click(function(){
     	$("#adult, #btn-backItUpFour").fadeOut(500, function() {
-            $("#container, #btn-back").fadeIn(500);
+            $("#container, #btn-backItUp").fadeIn(500);
         });
     })
     
