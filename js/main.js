@@ -115,15 +115,15 @@ $(document).ready(function() {
 	    	name:"Illinois Juvenile Justice Commission"
 	    },
 	    {
-	    	quote:"'95.5%' - Percentage of juvenile arrests that are for nonviolent offenses nationwide",
+	    	quote:"95.5% - Percentage of juvenile arrests that are for nonviolent offenses nationwide",
 	    	name:"Illinois Juvenile Justice Commission"
 	    },
 	    {
-	    	quote:"'.0.29%' - Percentage of juvenile arrests expunged in Illinois 2004-2014 (one-third of one percent)",
+	    	quote:".0.29% - Percentage of juvenile arrests expunged in Illinois 2004-2014 (one-third of one percent)",
 	    	name:"Illinois Juvenile Justice Commission"
 	    },
 	    {
-	    	quote:"'87%' - Percentage of counties in Illinois that averaged less than one juvenile expungement per year 2004-2014",
+	    	quote:"87% - Percentage of counties in Illinois that averaged less than one juvenile expungement per year 2004-2014",
 	    	name:"Illinois Juvenile Justice Commission"
 	    }
 
