@@ -82,9 +82,10 @@ $(document).ready(function() {
             $("#adult, #btn-backItUpTwoo").fadeIn(500);
         });
     });
-    $("#btn-backItUpTwoo").click(function(){
-		$("#adult", "#btn-backItUpTwoo").fadeOut(500);	
-    	$("#container, #btn-back").fadeIn(500);
+    $("#btn-backItUpTwoo").click(function() {
+        $("#adult, #btn-backItUpTwoo").fadeOut(500, function() {
+            $("#container, #btn-back").fadeIn(500);
+        });
     });
     
     var quoteSource=[
