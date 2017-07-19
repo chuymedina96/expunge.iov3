@@ -87,7 +87,7 @@ $(document).ready(function() {
             $("#container, #btn-back").fadeIn(500);
         });
     });
-    $("#idk").click(function() {
+    $("#idk","#know").click(function() {
         $("#container, #btn-back").fadeOut(500, function() {
             $("#not_sure, #btn-backItUpFour").fadeIn(500);
         });
@@ -95,11 +95,6 @@ $(document).ready(function() {
     $("#btn-backItUpFour").click(function(){
     	$("#not_sure, #btn-backItUpFour").fadeOut(500, function() {
             $("#container, #btn-back").fadeIn(500);
-        });
-    });
-    $("#!know").click(function() {
-        $("#resultss, #btn-backItUpTwo").fadeOut(500, function() {
-            $("#not_sure, #btn-backItUpFour").fadeIn(500);
         });
     });
     
