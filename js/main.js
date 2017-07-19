@@ -77,6 +77,7 @@ $(document).ready(function() {
             $("#results, #btn-backItUp").fadeIn(500);
         });
     });
+    //WITH BACKITUPTHREE BUTTON
     $("#eighteen").click(function() {
         $("#container, #btn-back").fadeOut(500, function() {
             $("#adult, #btn-backItUpThree").fadeIn(500);
@@ -87,7 +88,8 @@ $(document).ready(function() {
             $("#container, #btn-back").fadeIn(500);
         });
     });
-    $("#idk","#know").click(function() {
+    //WITH BACKITUPFOUR BUTTON
+    $("#idk").click(function() {
         $("#container, #btn-back").fadeOut(500, function() {
             $("#not_sure, #btn-backItUpFour").fadeIn(500);
         });
