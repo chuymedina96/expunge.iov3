@@ -55,8 +55,8 @@
 .show-hide-contact-bar,
 .contact-button-link.show-hide-contact-bar:focus,
 .contact-button-link.show-hide-contact-bar:active {
-  background: #eee;
-  color: #000;
+  background: transparent;
+  color: #fff;
   border: 0;
   outline: 0;
   padding: 0;
