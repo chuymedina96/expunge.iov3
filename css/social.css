@@ -1,8 +1,4 @@
-body{
-		/*height: 10000px;*/
-		font-family: "Lato";
-		background-color: #2980b9;
-	}
+
 	.sticky-container{
 		padding: 0px;
 		margin: 0px;
@@ -78,23 +74,6 @@ body{
 
 	h2{
 		font-size:26px;
-	}
-
-	p{
-		color: #ecf0f1;
-		font-family: "Lato";
-		line-height: 28px;
-		font-size: 15px;
-		padding-top: 50px;
-	}
-
-	p.credit{
-		padding-top: 20px;
-		font-size: 12px;
-	}
-
-	p a{
-		color: #ecf0f1;
 	}
 
 	/** fork icon**/
