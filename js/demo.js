@@ -16,11 +16,11 @@ WebFontConfig = {
 $.contactButtons({
   effect  : 'slide-on-scroll',
   buttons : {
-    'facebook':   { class: 'facebook', use: true, link: 'https://www.facebook.com/pages/mycompany', extras: 'target="_blank"' },
-    'linkedin':   { class: 'linkedin', use: true, link: 'https://www.linkedin.com/company/mycompany' },
-    'google':     { class: 'gplus',    use: true, link: 'https://plus.google.com/myidongoogle' },
-    'mybutton':   { class: 'git',      use: true, link: 'http://github.com', icon: 'github', title: 'My title for the button' },
-    'phone':      { class: 'phone separated',    use: true, link: '+000' },
-    'email':      { class: 'email',    use: true, link: 'test@web.com' }
+    'facebook':   { class: 'facebook', use: true, link: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fchuymedina96.github.io%2Fexpunge.iov3%2F', extras: 'target="_blank"' },
+    'twitter':    { class: 'twitter',  use: true, link: 'https://twitter.com/intent/tweet?url=https%3A%2F%2Fchuymedina96.github.io%2Fexpunge.iov3%2F&text=If%20you%20have%20a%20record%2C%20you%20may%20be%20able%20to%20expunge%20it.%20Check%20out%20%23expungeio!%20', title: 'Follow on Twitter' },
+    'linkedin':   { class: 'linkedin', use: true, link: 'http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fchuymedina96.github.io%2Fexpunge.iov3%2F&title=If%20you%20have%20a%20record%2C%20you%20may%20be%20able%20to%20expunge%20it.%20Check%20out%20%23expungeio!%20' },
+    'google':     { class: 'gplus',    use: true, link: 'https://plus.google.com/share?url=https%3A%2F%2Fchuymedina96.github.io%2Fexpunge.iov3%2F' },
+    'phone':      { class: 'phone separated',    use: true, link: '(312) 229-6359' },
+    'email':      { class: 'email',    use: true, link: 'expungeio@lafchicago.org' }
   }
 });
