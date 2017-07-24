@@ -129,7 +129,12 @@ $(document).ready(function() {
 	    {
 	    	quote:"Weak Confidentiality Protections for Juvenile Records in Illinois Create Obstacles to Rehabilitation and Threaten Public Safety.",
 	    	name:"Illinois Juvenile Justice Commission"
+	    },
+	    {
+	    	quote:"Over 25,000 kids are arrested in Cook County each year.",
+	    	name:"Mikva Challenge Juvenile Justice Council"
 	    }
+	    
 
 	];
 	$('#quoteButton').click(function(evt){
