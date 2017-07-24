@@ -111,19 +111,23 @@ $(document).ready(function() {
 			name:"Illinois Juvenile Justice Commission"
 	    },
 	    {
-	    	quote:"APPROXIMATELY 1.8 million Number of juvenile arrests in Illinois 2004 – 2014",
+	    	quote:"APPROXIMATELY 1.8 million of juvenile arrests in Illinois from 2004 – 2014",
 	    	name:"Illinois Juvenile Justice Commission"
 	    },
 	    {
-	    	quote:"95.5 Percent of juvenile arrests that are for nonviolent offenses nationwide",
+	    	quote:"95.5 percent of juvenile arrests are for nonviolent offenses nationwide",
 	    	name:"Illinois Juvenile Justice Commission"
 	    },
 	    {
-	    	quote:"0.29 Percent of juvenile arrests were expunged in Illinois 2004-2014 (one-third of one percent)",
+	    	quote:"0.29 percent of juvenile arrests were expunged in Illinois 2004-2014 (one-third of one percent)",
 	    	name:"Illinois Juvenile Justice Commission"
 	    },
 	    {
-	    	quote:"87 Percent of counties in Illinois that averaged less than one juvenile expungement per year 2004-2014",
+	    	quote:"87 percent of counties in Illinois averaged less than one juvenile expungement per year from 2004-2014",
+	    	name:"Illinois Juvenile Justice Commission"
+	    },
+	    {
+	    	quote:"Weak Confidentiality Protections for Juvenile Records in Illinois Create Obstacles to Rehabilitation and Threaten Public Safety.",
 	    	name:"Illinois Juvenile Justice Commission"
 	    }
 
