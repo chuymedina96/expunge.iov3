@@ -26,11 +26,12 @@ WebFontConfig = {
 $.contactButtons({
   effect  : 'slide-on-scroll',
   buttons : {
-    'facebook':   { class: 'facebook', use: true, link: 'https://www.facebook.com/pages/mycompany', extras: 'target="_blank"' },
-    'linkedin':   { class: 'linkedin', use: true, link: 'https://www.linkedin.com/company/mycompany' },
+    'facebook':   { class: 'facebook', use: true, link: 'https://www.facebook.com/sharer/sharer.php?u=expunge.io', extras: 'target="_blank"' },
+    'twitter':    { class: 'twitter',  use: true, icon: 'twitter',     link: 'https://twitter.com/home?status=expunge.io%0A', title: 'Follow on Twitter' },
+    'linkedin':   { class: 'linkedin', use: true, link: 'https://www.linkedin.com/shareArticle?mini=true&url=expunge.io&title=&summary=&source=' },
     'google':     { class: 'gplus',    use: true, link: 'https://plus.google.com/myidongoogle' },
-    'mybutton':   { class: 'git',      use: true, link: 'http://github.com', icon: 'github', title: 'My title for the button' },
-    'phone':      { class: 'phone separated',    use: true, link: '+000' },
-    'email':      { class: 'email',    use: true, link: 'test@web.com' }
+    'pinterest':  { class: 'pinterest', use: true, icon: 'pinterest',   link: 'https://pinterest.com/pin/create/button/?url=&media=expunge.io&description=', title: 'Follow on Pinterest' },
+    'phone':      { class: 'phone separated',    use: true, link: "(312)-229-6359" },
+    'email':      { class: 'email',    use: true, link: 'expungeio@lafchicago.org' }
   }
 });
