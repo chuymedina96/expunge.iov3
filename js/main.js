@@ -114,12 +114,12 @@ $(document).ready(function() {
             $("#container, #btn-back").fadeIn(500);
         });
     });
+    //BackItUpFive button functionality
     $("#2010_2013").click(function() {
         $("#resultss, #btn-backItUpTwo").fadeOut(500, function() {
             $("#unclear, #btn-backItUpFive").fadeIn(500);
         });
     });
-    //BackItUpFive button functionality
     $("#btn-backItUpFive").click(function(){
         $("#unclear, #btn-backItUpFive").fadeOut(500, function(){
             $("#container, #btn-back").fadeIn(500);
