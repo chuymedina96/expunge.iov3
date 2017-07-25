@@ -77,6 +77,16 @@ $(document).ready(function() {
             $("#results, #btn-backItUp").fadeIn(500);
         });
     });
+    $("#2010_2013").click(function() {
+        $("#resultss, #btn-backItUpTwo").fadeOut(500, function() {
+            $("#unclear, #btn-backItUpFive").fadeIn(500);
+        });
+    });
+    $("#2009_earlier").click(function() {
+        $("#resultss, #btn-backItUpTwo").fadeOut(500, function() {
+            $("#adult, #btn-backItUpThree").fadeIn(500);
+        });
+    });
     $("#not_know").click(function() {
         $("#resultss, #btn-backItUpTwo").fadeOut(500, function() {
             $("#not_sure, #btn-backItUpFour").fadeIn(500);
