@@ -39,8 +39,8 @@ $(document).ready(function() {
     });
 
     $("#understand").click(function() {
-        $("#btn-bk, #bank").fadeOut(500, function() {
-            $("#btn-back").fadeIn(500), $("#container").fadeIn(500);
+        $("#btn-bk, #bank").fadeOut(1000, function() {
+            $("#btn-back").fadeIn(1000), $("#container").fadeIn(1000);
         });
     });
     
@@ -51,8 +51,8 @@ $(document).ready(function() {
     });
     
     $("#sixteen").click(function() {
-        $("#container, #btn-back").fadeOut(500, function() {
-            $("#results, #btn-backItUp").fadeIn(500);
+        $("#container, #btn-back").fadeOut(1000, function() {
+            $("#results, #btn-backItUp").fadeIn(1000);
         });
     });
     
@@ -63,8 +63,8 @@ $(document).ready(function() {
     });
     
      $("#seventeen").click(function() {
-        $("#container, #btn-back").fadeOut(500, function() {
-            $("#resultss, #btn-backItUpTwo").fadeIn(500);
+        $("#container, #btn-back").fadeOut(1000, function() {
+            $("#resultss, #btn-backItUpTwo").fadeIn(1000);
         });
     });
     $("#btn-backItUpTwo").click(function() {
@@ -73,29 +73,29 @@ $(document).ready(function() {
         });
     });
     $("#2014").click(function() {
-        $("#resultss, #btn-backItUpTwo").fadeOut(500, function() {
-            $("#results, #btn-backItUp").fadeIn(500);
+        $("#resultss, #btn-backItUpTwo").fadeOut(1000, function() {
+            $("#results, #btn-backItUp").fadeIn(1000);
         });
     });
     $("#2010_2013").click(function() {
-        $("#resultss, #btn-backItUpTwo").fadeOut(500, function() {
-            $("#unclear, #btn-backItUpFive").fadeIn(500);
+        $("#resultss, #btn-backItUpTwo").fadeOut(1000, function() {
+            $("#unclear, #btn-backItUpFive").fadeIn(1000);
         });
     });
     $("#2009_earlier").click(function() {
-        $("#resultss, #btn-backItUpTwo").fadeOut(500, function() {
-            $("#adult, #btn-backItUpThree").fadeIn(500);
+        $("#resultss, #btn-backItUpTwo").fadeOut(1000, function() {
+            $("#adult, #btn-backItUpThree").fadeIn(1000);
         });
     });
     $("#not_know").click(function() {
-        $("#resultss, #btn-backItUpTwo").fadeOut(500, function() {
-            $("#not_sure, #btn-backItUpFour").fadeIn(500);
+        $("#resultss, #btn-backItUpTwo").fadeOut(1000, function() {
+            $("#not_sure, #btn-backItUpFour").fadeIn(1000);
         });
     });
     //WITH BACKITUPTHREE BUTTON
     $("#eighteen").click(function() {
-        $("#container, #btn-back").fadeOut(500, function() {
-            $("#adult, #btn-backItUpThree").fadeIn(500);
+        $("#container, #btn-back").fadeOut(1000, function() {
+            $("#adult, #btn-backItUpThree").fadeIn(1000);
         });
     });
     $("#btn-backItUpThree").click(function() {
@@ -105,8 +105,8 @@ $(document).ready(function() {
     });
     //WITH BACKITUPFOUR BUTTON
     $("#idk").click(function() {
-        $("#container, #btn-back").fadeOut(500, function() {
-            $("#not_sure, #btn-backItUpFour").fadeIn(500);
+        $("#container, #btn-back").fadeOut(1000, function() {
+            $("#not_sure, #btn-backItUpFour").fadeIn(1000);
         });
     });
     $("#btn-backItUpFour").click(function(){
@@ -116,8 +116,8 @@ $(document).ready(function() {
     });
     //BackItUpFive button functionality
     $("#2010_2013").click(function() {
-        $("#resultss, #btn-backItUpTwo").fadeOut(500, function() {
-            $("#unclear, #btn-backItUpFive").fadeIn(500);
+        $("#resultss, #btn-backItUpTwo").fadeOut(1000, function() {
+            $("#unclear, #btn-backItUpFive").fadeIn(1000);
         });
     });
     $("#btn-backItUpFive").click(function(){
