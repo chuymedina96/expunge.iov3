@@ -82,11 +82,6 @@ $(document).ready(function() {
             $("#unclear, #btn-backItUpFive").fadeIn(500);
         });
     });
-    $("#btn-backItUpFive").click(function(){
-        $("#unclear, #btn-backItUpFive").fadeOut(500, function(){
-            $("#container, #btn-back").fadeOut(500);
-        });
-    });
     $("#2009_earlier").click(function() {
         $("#resultss, #btn-backItUpTwo").fadeOut(500, function() {
             $("#adult, #btn-backItUpThree").fadeIn(500);
@@ -116,6 +111,12 @@ $(document).ready(function() {
     });
     $("#btn-backItUpFour").click(function(){
     	$("#not_sure, #btn-backItUpFour").fadeOut(500, function() {
+            $("#container, #btn-back").fadeIn(500);
+        });
+    });
+    //BackItUpFive button functionality
+    $("#btn-backItUpFive").click(function(){
+        $("#unclear, #btn-backItUpFive").fadeOut(500, function(){
             $("#container, #btn-back").fadeIn(500);
         });
     });
