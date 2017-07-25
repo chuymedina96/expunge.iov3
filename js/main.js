@@ -27,8 +27,8 @@ $(document).ready(function() {
     });
     
     $("#btn").click(function() {
-        $("#fancy, #btn").fadeOut(500, function() {
-            $("#bank, #btn-bk").fadeIn(500);
+        $("#fancy, #btn").fadeOut(1000, function() {
+            $("#bank, #btn-bk").fadeIn(1000);
         });
     });
     
